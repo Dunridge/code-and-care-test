@@ -1,3 +1,11 @@
 <div class="body">
-  <p>Test</p>
+  <div class="body__title">Input array:</div>
+  <div class="body__input-arr">
+    <span *ngFor="let line of inputLines">{{ line }}</span>
+  </div>
+
+  <div class="body__title">Output array:</div>
+  <div class="body__res-arr">
+    <span *ngFor="let line of result">{{ line }}</span>
+  </div>
 </div>
